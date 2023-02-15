@@ -1,12 +1,10 @@
 package com.serenitydojo;
 
 public class Hamster extends Pet {
-    private final int age;
     private final String favoriteGame;
 
     public Hamster(String name, int age, String favoriteGame) {
-        super(name);
-        this.age = age;
+        super(name, age);
         this.favoriteGame = favoriteGame;
 
     }

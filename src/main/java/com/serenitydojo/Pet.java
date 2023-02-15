@@ -2,9 +2,15 @@ package com.serenitydojo;
 
 public abstract class Pet {
     private String name;
+    private int age;
 
-    protected Pet(String name) {
+    protected Pet(String name, int age) {
         this.name = name;
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     public String getName() {
